@@ -1,5 +1,4 @@
-# IA-Phase-2
-
+# Graphql Server
 ## Requirements
 
 - node 12.16.*
