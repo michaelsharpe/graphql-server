@@ -1,6 +1,6 @@
 # Module System
 
-Our module system is very flexible. At the base of the modules folder is the main index, which is responsible for auto-loading all files from the modules, including schemas, resolvers, services, and listeners and then exporting them out to be used by the main apollo server configuration. This has been done to allow to an easy extensible architecture. A single moddule is a predictable unit of code sharinig certain interfaes. The structure of a module looks like the following:
+Our module system is very flexible. At the base of the modules folder is the main index, which is responsible for auto-loading all files from the modules, including schemas, resolvers, services, and listeners and then exporting them out to be used by the main apollo server configuration. This has been done to allow to an easy extensible architecture. A single module is a predictable unit of code sharing certain interfaces. The structure of a module looks like the following:
 
 ```
 myModule
